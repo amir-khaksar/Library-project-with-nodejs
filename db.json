@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "amir khaksar",
+      "username": "amirkh",
+      "crime": 90000,
+      "role": "ADMIN",
+      "email": "amir@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "mahan rezaei",
+      "username": "mahanr",
+      "crime": {
+        "crime": 40000
+      },
+      "role": "ADMIN",
+      "email": "mahan@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "mahdiar",
+      "username": "mahdarb",
+      "crime": 0,
+      "role": "USER",
+      "email": "mahdiar@gmail.com"
+    },
+    {
+      "id": "18b54c12-d702-4ba0-9269-327e432a4702",
+      "name": "ali",
+      "username": "ali_ahmadi",
+      "email": "ali@gmail.com",
+      "role": "USER",
+      "crime": 0
+    },
+    {
+      "id": "ca5665a1-2778-422c-b8b2-d54a80bb14c1",
+      "name": "amirmohammad khaksar",
+      "username": "amirkh1386",
+      "email": "amirkhaksar@gmail.com",
+      "crime": 0,
+      "role": "USER"
+    }
+  ],
+  "books": [
+    {
+      "id": "c1b7c61c-6be5-493d-8059-20952771be0b",
+      "title": "javascript book",
+      "author": "person12",
+      "price": 350000,
+      "free": 1
+    },
+    {
+      "id": "60e90bc8-7fa6-4d97-a403-cbf93fed07aa",
+      "title": "react js book",
+      "author": "person 3",
+      "price": 300000,
+      "free": 1
+    },
+    {
+      "id": "86a57989-b8e0-4d29-a636-5e9983981e42",
+      "title": "node js book",
+      "author": "rad",
+      "price": 360000,
+      "free": 1
+    },
+    {
+      "id": "13674bed-e0da-4131-bacc-96f4f42739e1",
+      "title": "Christopher Hand",
+      "author": "Paula Robel",
+      "price": "191.76",
+      "free": 1
+    }
+  ],
+  "rents": [
+    {
+      "id": 1,
+      "userID": 1,
+      "bookID": 2
+    },
+    {
+      "id": "c1f10490-1bed-4154-8985-ecea63d7785c",
+      "userID": 2,
+      "bookID": 1
+    },
+    {
+      "id": "62e48a81-7812-4807-a504-9a866c214e0e",
+      "userID": 3,
+      "bookID": "86a57989-b8e0-4d29-a636-5e9983981e42"
+    }
+  ]
+}
